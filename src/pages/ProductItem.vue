@@ -131,11 +131,7 @@
                           <span class="a-button-inner">
                             <a href="#" class="a-button-text">
                               <span>
-                                <img
-                                  src="/img/audibleLogo.png"
-                                  class="img-fluid"
-                                  style="width: 20px;"
-                                />Audible
+                                Audible
                               </span>
                               <br />
                               <span class="a-color-secondary">-</span>
