@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run start --prefix server",
-    "heroku-postbuild": "npm run build"
+    "start": "node server.js"
   },
   "author": "juliecarra",
   "license": "ISC",
