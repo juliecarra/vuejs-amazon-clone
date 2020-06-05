@@ -31,7 +31,7 @@
             <div class="leftCol">
               <div clas="imgBlock">
                 <div class="eBooksimg">
-                  <img :src="product.image" class="img-fluid" />
+                  <img :src="product.image" class="imge-fluid" />
                 </div>
               </div>
 
@@ -155,7 +155,7 @@
                         </span>
                       </span>
                     </li>
-                    <!-- Paperback -->
+
                     <li class="swatchElement" style="width: 117px;">
                       <span class="a-list-item">
                         <span class="a-button-toggle">
@@ -172,7 +172,7 @@
                   </ul>
                 </div>
               </div>
-              <!-- Description -->
+
               <div class="bookDescription">
                 <div class="bookDescriptionInner">
                   {{ product.description }}
@@ -377,4 +377,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="css" scoped>
+.imge-fluid {
+  width: 94% !important;
+}
+</style>
